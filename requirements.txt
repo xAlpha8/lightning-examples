@@ -1,0 +1,5 @@
+python>=3.9,<3.12
+inference>=0.15.0,<0.16.0
+gradio>=4.26.0,<4.27.0
+-e git+https://github.com/openai/CLIP.git#egg=clip
+ultralytics>=8.2.61,<8.2.62
