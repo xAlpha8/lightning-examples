@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lightning-examples"
+version = "0.1.0"
+description = ""
+authors = ["Janak <janak2@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9 <3.12"
+inference = "^0.15.0"
+gradio = "^4.26.0"
+clip = { git= "https://github.com/openai/CLIP.git"}
+ultralytics = "^8.2.61"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
